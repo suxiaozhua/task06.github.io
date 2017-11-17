@@ -117,7 +117,7 @@
 	left: 27%;
 	top: 58px;
 	margin-left: -80px;
-	border-right: 1px solid #E1E5E7;
+	/*border-right: 1px solid #E1E5E7;*/
 }
 
 .screenLeft a {
@@ -165,7 +165,7 @@
 	left: 50%;
 	top: 58px;
 	margin-left: -55px;
-	border-right: 1px solid #E1E5E7;
+	/*border-right: 1px solid #E1E5E7;*/
 }
 
 .screenMiddle a {
@@ -216,14 +216,15 @@
 }
 
 .content {
-	height: 92px;
+	height: auto;
+	width: auto;
 	padding: 16px;
 	border-bottom: 1px solid #E1E5E7;
 }
 
 .clumnDate p {
-	padding: 5px;
-	font-size: 16px;
+	padding: .6vw;
+	font-size: 1.6vw;
 	color: #808080;
 }
 
@@ -243,10 +244,10 @@
 
 .term p {
 	padding: 5px;
-	font-size: 16px;
+	font-size: 1.6vw;
 	font-weight: 600;
 	margin-left: 40px;
-	margin-right: 105px; 
+	margin-right: 96px; 
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -254,7 +255,7 @@
 
 .clumnLation p {
 	padding: 5px;
-	font-size: 16px;
+	font-size: 1.6vw;
 	color: #808080;
 }
 
@@ -275,7 +276,7 @@
 .charge {
 	display: block;
 	float: right;
-	margin: -57px 10px 30px 1px;
+	margin: -49px 10px 30px 1px;
 }
 
 .charge p {
@@ -288,7 +289,7 @@
 
 .charge p,
 .charge span {
-	font-size: 16px;
+	font-size: 1.6vw;
 	font-weight: 700;
 }
 
